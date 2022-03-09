@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+hr {
+    border-top: 15px solid black;
+    border-bottom: solid black;
+}
+
+.time{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.tout {
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: 255px;
+    border: 7px solid black;
+    border-radius: 30px;
+}
+
+.row {
+    margin-left: 115px;
+    display: flex;
+    
+}
+
+.nomCase {
+    padding-left: 100px;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.reponses {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.explication {
+    margin-top: 150px;
+    border: 7px solid black;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+p {
+    font-size: larger;
+}
