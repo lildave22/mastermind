@@ -11,8 +11,9 @@
         <h1>MasterMind v1</h1><hr>
         <div class="regles">
             <a href="regles.html">
-            <input type="button" value="Règles" name="bout" />
+            <input type="button" value="Règles" name="bout" class="btn" />
             </a>
+            <p class="tps">Temps imparti :</p>
         </div>
         <div class="time">30</div>
         <div class="tout">
@@ -39,10 +40,11 @@
                 <input
                     type="submit"
                     name="send"
+                    class="btn"
                     value="Valider"
                     onclick={valid()}
                 />&nbsp;&nbsp;
-                <input Type="button" value="Restart" onClick="history.go(0)"/>
+                <input Type="button" value="Restart" onClick="history.go(0)" class="btn"/>
             </div>
             <div class="reponses">
 
